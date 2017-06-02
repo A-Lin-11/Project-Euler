@@ -26,8 +26,6 @@ for i in x:
         x2,y2 = j
         if x1!=x2 and y1!=y2 and x1+y1>0:
             if x1*x2+y1*y2==x1*x1+y1*y1:
-                k = ((x1,y1),(x2,y2))
-                res[k] = True
+                r += 1
 
-
-print(r + len(res))
+print(r)
